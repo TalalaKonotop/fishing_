@@ -2,22 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="02ff37aa-1932-4749-808d-2843948c0170" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/fishing__node_modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/images/avatar.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/images/bottom_bg.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/images/bottom_bg2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/images/header_bg2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/images/image_right.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/images/sub_list2.png" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/js/swiper.min.js" afterPath="$PROJECT_DIR$/src/vendor/swiper/swiper.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/css/style.min.css" afterPath="$PROJECT_DIR$/dist/css/style.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/index.html" afterPath="$PROJECT_DIR$/dist/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/js/script.min.js" afterPath="$PROJECT_DIR$/dist/js/script.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/index.html" afterPath="$PROJECT_DIR$/src/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/less/_main.less" afterPath="$PROJECT_DIR$/src/less/_main.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/less/import/variables.less" afterPath="$PROJECT_DIR$/src/less/import/variables.less" />
     </list>
     <ignored path="fishing_.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -92,8 +79,8 @@
       <file leaf-file-name="_main.less" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/less/_main.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="141">
-              <caret line="80" column="8" selection-start-line="80" selection-start-column="8" selection-end-line="80" selection-end-column="8" />
+            <state relative-caret-position="156">
+              <caret line="156" column="31" selection-start-line="156" selection-start-column="31" selection-end-line="156" selection-end-column="31" />
               <folding />
             </state>
           </provider>
@@ -322,12 +309,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1465466797828</updated>
-      <workItem from="1465466801791" duration="7096000" />
+      <workItem from="1465466801791" duration="7491000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7096000" />
+    <option name="totallyTimeSpent" value="7491000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="-4" width="1301" height="772" extended-state="6" />
@@ -408,8 +395,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/less/_main.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
-          <caret line="80" column="8" selection-start-line="80" selection-start-column="8" selection-end-line="80" selection-end-column="8" />
+        <state relative-caret-position="156">
+          <caret line="156" column="31" selection-start-line="156" selection-start-column="31" selection-end-line="156" selection-end-column="31" />
           <folding />
         </state>
       </provider>
