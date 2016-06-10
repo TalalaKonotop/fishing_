@@ -57,6 +57,14 @@ $(document).ready(function(){
         prevButton: '.swiper-button-prev',
         spaceBetween: 10,
     });
+
+    var review_slider = new Swiper('.review_slider', {
+        nextButton: '.swiper-button-next',
+        prevButton: '.swiper-button-prev',
+        spaceBetween: 10,
+    });
+
+
     var galleryThumbs = new Swiper('.gallery-thumbs', {
         spaceBetween: 10,
         centeredSlides: true,
@@ -68,3 +76,4 @@ $(document).ready(function(){
     galleryThumbs.params.control = galleryTop;
 
 });
+
