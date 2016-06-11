@@ -4,10 +4,7 @@
     <list default="true" id="02ff37aa-1932-4749-808d-2843948c0170" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/css/style.min.css" afterPath="$PROJECT_DIR$/dist/css/style.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/index.html" afterPath="$PROJECT_DIR$/dist/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/index.html" afterPath="$PROJECT_DIR$/src/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/less/_main.less" afterPath="$PROJECT_DIR$/src/less/_main.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/less/import/variables.less" afterPath="$PROJECT_DIR$/src/less/import/variables.less" />
     </list>
     <ignored path="fishing_.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -63,8 +60,8 @@
       <file leaf-file-name="_main.less" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/less/_main.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="259" column="26" selection-start-line="259" selection-start-column="26" selection-end-line="259" selection-end-column="26" />
+            <state relative-caret-position="340">
+              <caret line="231" column="15" selection-start-line="231" selection-start-column="15" selection-end-line="231" selection-end-column="15" />
               <folding />
             </state>
           </provider>
@@ -297,12 +294,12 @@
       <workItem from="1465584138433" duration="851000" />
       <workItem from="1465585982029" duration="6601000" />
       <workItem from="1465633929228" duration="3913000" />
-      <workItem from="1465639991511" duration="2001000" />
+      <workItem from="1465639991511" duration="2449000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29446000" />
+    <option name="totallyTimeSpent" value="29894000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="24" width="1301" height="744" extended-state="6" />
@@ -638,8 +635,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/less/_main.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="259" column="26" selection-start-line="259" selection-start-column="26" selection-end-line="259" selection-end-column="26" />
+        <state relative-caret-position="340">
+          <caret line="231" column="15" selection-start-line="231" selection-start-column="15" selection-end-line="231" selection-end-column="15" />
           <folding />
         </state>
       </provider>
