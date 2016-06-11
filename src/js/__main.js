@@ -51,12 +51,19 @@ $(document).ready(function(){
     wow.init();
 
     // Slider
-    
-    var galleryTop = new Swiper('.gallery-top', {
-        nextButton: '.swiper-button-next',
-        prevButton: '.swiper-button-prev',
-        spaceBetween: 10,
+
+    var swiper = new Swiper('.gallery-top', {
+        pagination: '.swiper-pagination',
+        slidesPerView: 3,
+        paginationClickable: true,
+        spaceBetween: 30
     });
+    //
+    // var galleryTop = new Swiper('.gallery-top', {
+    //     nextButton: '.swiper-button-next',
+    //     prevButton: '.swiper-button-prev',
+    //     spaceBetween: 10,
+    // });
 
     var review_slider = new Swiper('.review_slider', {
         nextButton: '.swiper-button-next',
