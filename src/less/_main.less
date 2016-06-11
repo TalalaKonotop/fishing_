@@ -11,7 +11,7 @@
 
 // General
 *{
-	font-family: sans-serif;
+	font-family: 'PF';
 }
 .top{
 	position: absolute;
@@ -31,6 +31,7 @@
 		right: 0;
 		margin: auto;
 		text-align: center;
+
 		.social__in {
 			margin: 0 auto;
 			max-width: 100px;
@@ -60,11 +61,13 @@
 	.navbar-header a {
 		color: #fff;
 		line-height: 70px;
+		font-family: @font-family_1;
 	}
 	.navbar-collapse ul li a{
 		color: #fff;
 		line-height: 70px;
 		font-size: 24px;
+		font-family: @font-family_1;
 	}
 }
 .banner{
@@ -82,6 +85,7 @@
 		padding: 230px 0 35px 0;
 		text-align: center;
 		text-transform: uppercase;
+		font-family: @font-family_1;
 	}
 	hr{
 		display: block;
@@ -98,6 +102,7 @@
 		width: 900px;
 		display: block;
 		margin: 0 auto;
+		font-family: @font-family_1;
 	}
 }
 // Hr
@@ -118,11 +123,13 @@
 		padding: 35px 0;
 		text-align: center;
 		text-transform: uppercase;
+		font-family: @font-family_1;
 	}
 	p{
 		font-size: 20px;
 		padding: 35px 0;
 		text-align: center;
+		font-family: @font-family_1;
 	}
 	.block__main{
 		margin-top: 35px;
@@ -151,12 +158,14 @@
 				font-size: 20px;
 				padding: 35px 0;
 				text-align: center;
+				font-family: @font-family_1;
 			}
 			p{
 				width: 70%;
 				margin:0 auto;
 				text-align: center;
 				font-size: 14px;
+				font-family: @font-family_1;
 			}
 		}
 	}
@@ -180,10 +189,12 @@
 	//height: 950px;
 	width: 100%;
 	padding: 20px;
+	padding-bottom: 35px;
 	h2{
 		font-size: 36px;
 		padding: 35px 0;
 		text-align: center;
+		font-family: @font-family_1;
 	}
 }
 .swiper-container {
@@ -227,6 +238,7 @@
 		font-size: 36px;
 		padding: 35px 0;
 		text-align: center;
+		font-family: @font-family_1;
 	}
 	p{
 		padding: 35px 0;
@@ -234,9 +246,9 @@
 		color: #000;
 		font-size: 20px;
 		text-align: center;
-		//width: 900px;
 		display: block;
 		margin: 0 auto;
+		font-family: @font-family_1;
 	}
 	.price{
 		width: 100%;
@@ -245,7 +257,7 @@
 		.price__in{
 			margin: 0 auto;
 			width: 80%;
-			height: 435px;
+			min-height: 365px;
 			background-color: #333;
 			padding: 20px 0;
 			position: relative;
@@ -255,28 +267,42 @@
 				text-align: center;
 				border-bottom: 1px #fff solid;
 				padding-bottom: 20px;
+				font-family: @font-family_1;
 			}
 			h4{
 				font-size: 60px;
 				color: #fff;
 				text-align: center;
 				padding: 20px 0 30px;
-			}
-			span{
-				color: #fff;
-				font-size: 24px;
 				font-family: @font-family_1;
-				left: 45px;
-				line-height: 5px;
-				position: absolute;
-				top: 150px;
+				position: relative;
+				&::before{
+					content: 'грн.';
+					position: absolute;
+					left: 80px;
+					bottom: 25px;
+					color: #fff;
+					font-size: 24px;
+					font-family: @font-family_1;
+				}
 			}
+			//span{
+			//	color: #fff;
+			//	font-size: 24px;
+			//	font-family: @font-family_1;
+			//	left: 45px;
+			//	line-height: 5px;
+			//	position: absolute;
+			//	top: 150px;
+			//	font-family: @font-family_1;
+			//}
 			p{
 				border-top: 1px solid;
 				padding: 20px;
 				font-size: 24px;
 				line-height: 30px;
 				color:#fff;
+				font-family: @font-family_1;
 			}
 		}
 
@@ -291,12 +317,14 @@
 		text-align: center;
 		display: block;
 		margin: 0 auto;
+		font-family: @font-family_1;
 	}
 	ul li{
 		font-size: 16px;
 		line-height: 30px;
 		color:#000;
 		text-align: center;
+		font-family: @font-family_1;
 	}
 
 }
@@ -402,7 +430,7 @@
 }
 
 .username{
-	font-family: 'PF';
+	font-family: @font-family_1;
 	margin: 60px 0 30px;
 	font-size: 24px;
 }
@@ -414,7 +442,7 @@
 }
 .review-title {
 	padding: 30px 0 0;
-	font-family: 'PF';
+	font-family: @font-family_1;
 	text-align: center;
 	text-transform: uppercase;
 	font-size: 40px;
@@ -422,7 +450,7 @@
 
 .contact{
 	h2{
-		font-family: 'PF';
+		font-family: @font-family_1;
 		font-size: 50px;
 	}
 	padding: 20px;
@@ -433,35 +461,45 @@ footer{
 	//margin-top: 35px;
 	background-color: #333;
 	color:#fff;
-	padding: 5px;
+	padding: 35px 5px;
 }
 
 .footer_title{
 	float: left;
 	display: inline-block;
+	font-family: @font-family_1;
+	font-size: 24px;
 }
 .footer_number{
 	text-align: center;
 	width: 400px;
 	margin: 0 auto;
+	font-family: @font-family_1;
+		a{
+			font-size: 24px;
+			color: #fff;
+		}
 
 }
 .footer_soc{
 	float: right;
+	a{
+		font-size: 24px;
+		color: #fff;
+		padding: 0 10px;
+	}
+
 }
 .footer_soc a{
 	//float: left;
+	font-family: @font-family_1;
+	font-size: 24px;
 }
 
 
 // Modifine
 .grey{
 	background-color: #f1f1f1;
-	//border-top: 1px #ccc dashed;
-	//border-bottom: 1px #ccc dashed;
-	//box-shadow: 0 0 5px #bfbfbf;
 
-}
-.write{
-	background-color: #fff;
+
 }
