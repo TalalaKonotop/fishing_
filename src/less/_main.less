@@ -11,58 +11,77 @@
 
 // General
 *{
+	margin: 0;
+	padding: 0;
 	font-family: 'PF';
 }
 .top{
-	position: absolute;
-	line-height: 100px;
+	position: fixed;
 	top:0;
 	left: 0;
 	right: 0;
 	margin: auto;
-	background-color: rgba(0, 0, 0, 0.2);
+	//background-color: rgba(0, 0, 0, 0.2);
+	background-color: rgba(42,103,164, 0.95);
 	width: 100%;
-	height: 100px;
+	height: auto;
 	z-index: 999;
+	font-size: 120%;
 	.social{
-		position: absolute;
-		top:0;
-		left: 0;
-		right: 0;
-		margin: auto;
+		margin:0 auto;
 		text-align: center;
 
 		.social__in {
 			margin: 0 auto;
-			max-width: 100px;
+			//max-width: 100px;
 
 		}
 
 		a{
-			float: left;
+			line-height: 65px;
 			color: #fff;
 			padding: 0 10px;
-			//transition: all 1s;
+			transition: all 1s;
 			&:hover{
 				color: #d5d5d5;
 				margin-top: 2px;
 			}
 		}
 	}
+	.logo{
+		a{
+			display: block;
+			width: 100%;
+			line-height: 65px;
+			color: #fff;
+			font-family: 'PF';
+			text-align: left;
+		}
+	}
+	.contact-top{
+		span{
+			display: block;
+			width: 100%;
+			//line-height: 65px;
+			color: #fff;
+			font-family: 'PF';
+			text-align: right;
+			line-height: 65px;
+		}
+	}
 }
 
 .fix-top{
 	position: fixed;
-	top:0;
+	top:0px;
 	left: 0;
 	right: 0;
 	margin: auto;
 	background-color: rgba(42,103,164, 0.95);
 	width: 100%;
 	color: #000;
-	height: 100px;
+	height: auto;
 	transition: background-color 1s;
-
 }
 .container-fluid{
 	padding: 0;
@@ -91,7 +110,6 @@
 	background-size: 100% 100%;
 	overflow: hidden;
 	h2{
-		width: 700px;
 		display: block;
 		margin: 0 auto;
 		color: @content_text;
@@ -113,7 +131,6 @@
 		color: @content_text;
 		font-size: 20px;
 		text-align: center;
-		width: 900px;
 		display: block;
 		margin: 0 auto;
 		font-family: @font-family_1;
@@ -129,7 +146,8 @@
 // Block
 .block{
 	width: 100%;
-	min-height: 680px;
+	//min-height: 680px;
+	overflow: hidden;
 	overflow: hidden;
 	background: #fff;
 	h2{
@@ -139,9 +157,9 @@
 		text-transform: uppercase;
 		font-family: @font-family_1;
 	}
-	p{
+	h3{
 		font-size: 20px;
-		padding: 35px 0;
+		padding-top: 35px;
 		text-align: center;
 		font-family: @font-family_1;
 	}
@@ -154,8 +172,8 @@
 
 			.image{
 				overflow: hidden;
-				height: 280px;
-				width: 280px;
+				height: auto;
+				width: 95%;
 				//border: 3px orange double;
 
 				border-radius: 20%;
@@ -163,9 +181,9 @@
 				display: block;
 				img{
 					display: block;
-					width: 280px;
+					width: 100%;
 
-					height: 280px;
+					min-height: 280px;
 				}
 			}
 			h3{
@@ -184,18 +202,6 @@
 		}
 	}
 }
-//html body div.container.wow.fadeInUp div.block.wow.fadeIn div.row div.col-xs-4 div.image{
-//	overflow: hidden;
-//	height: 150px;
-//	width: 150px;
-//	border: 3px orange solid;
-//	border-radius: 50%;
-//	margin: 0 auto;
-//	display: block;
-//	img{
-//		display: block;
-//	}
-//}
 // Gallery
 .galley{
 
@@ -226,8 +232,6 @@
 
 
 .gallery-top {
-	//height: 600px;
-	//width: 100%;
 }
 .gallery-thumbs {
 	height: 200px;
@@ -267,6 +271,7 @@
 		font-family: @font-family_1;
 	}
 	.price{
+		padding-top: 35px;
 		width: 100%;
 		float: left;
 		overflow: hidden;
@@ -302,16 +307,6 @@
 					font-family: @font-family_1;
 				}
 			}
-			//span{
-			//	color: #fff;
-			//	font-size: 24px;
-			//	font-family: @font-family_1;
-			//	left: 45px;
-			//	line-height: 5px;
-			//	position: absolute;
-			//	top: 150px;
-			//	font-family: @font-family_1;
-			//}
 			p{
 				border-top: 1px solid;
 				padding: 20px;
@@ -363,7 +358,6 @@
 		color: #000;
 		font-size: 20px;
 		text-align: center;
-		//width: 900px;
 		display: block;
 		margin: 0 auto;
 	}
@@ -376,15 +370,12 @@
 			overflow: hidden;
 			height: 230px;
 			width: 230px;
-			//border: 3px orange double;
-
 			border-radius: 50%;
 			margin: 0 auto;
 			display: block;
 			img{
 				display: block;
 				width: 230px;
-
 				height: 280px;
 			}
 		}
@@ -424,37 +415,50 @@
 		color: #000;
 		font-size: 20px;
 		text-align: center;
-		//width: 900px;
 		display: block;
 		margin: 0 auto;
 	}
 
 }
-
-
+// Review
+.swiper-container{
+	height: auto;
+}
+.swiper-slide{
+	margin-top: 35px;
+}
 .review_slider{
-	width: 1000px;;
+	//width: 1000px;;
+	width: 100%;
+	//height: 300px;
 }
 
 
+
 .review-img img{
-	border-radius: 100%;
+	border-radius: 50%;
 	width: 200px;
-	height: 220px;
-	margin: 40px 90px;
-	float: left;
+	height: 200px;
+	//margin: 40px 90px;
+	//float: left;
+	margin: 35px auto;
 }
 
 .username{
 	font-family: @font-family_1;
-	margin: 60px 0 30px;
+	margin: 70px 0 35px;
+	//margin: 0 auto;
+	//margin-top: 35px;
 	font-size: 24px;
+	//text-align: center;
 }
 
 .review-text{
 	color: #888;
-	width: 900px;
+	//width: 900px;
 	line-height: 1.5;
+	margin-bottom: 35px;
+	//text-align: center;
 }
 .review-title {
 	padding: 30px 0 0;
@@ -488,10 +492,9 @@ footer{
 }
 .footer_number{
 	text-align: center;
-	width: 400px;
 	margin: 0 auto;
 	font-family: @font-family_1;
-		a{
+		span{
 			font-size: 24px;
 			color: #fff;
 		}
@@ -499,15 +502,16 @@ footer{
 }
 .footer_soc{
 	float: right;
+	text-align: right;
 	a{
 		font-size: 24px;
 		color: #fff;
 		padding: 0 10px;
+
 	}
 
 }
 .footer_soc a{
-	//float: left;
 	font-family: @font-family_1;
 	font-size: 24px;
 }
@@ -526,6 +530,7 @@ footer{
 	right: 50px;
 	cursor: pointer;
 	transition: background-color 1s;
+	z-index: 999;
 		i{
 			display: block;
 			margin: 0 auto;
@@ -545,4 +550,44 @@ footer{
 	background-color: #f1f1f1;
 
 
+}
+
+@media only screen and (max-width: 768px) {
+	.top .contact-top span {
+		text-align: center;
+	}
+		.logo {
+			display: none;
+
+		}
+		.social__in {
+			display: none;
+		}
+		.footer_number{
+			display: none;
+		}
+		.footer_title{
+			display: none;
+		}
+		.footer_soc{
+			.soc_vk{
+				margin: 0 auto;
+				text-align: center;
+			}
+
+		}
+		#back-top {
+
+			bottom: 10px;
+			right: 10px;
+		}
+		.price__block .price .price__in h4::before {
+			left: 55px;
+		}
+	.username{
+		text-align: center;
+	}
+	.review-text{
+		text-align: center;
+	}
 }

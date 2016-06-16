@@ -2,15 +2,15 @@ $(document).ready(function(){
 
 
     //Fixed Top
-    $(window).scroll(function() {
-        if ($(this).scrollTop() > 50) {
-            $('.top').addClass("fix-top");
-
-        } else {
-            $('.top').removeClass("fix-top");
-
-        }
-    });
+    // $(window).scroll(function() {
+    //     if ($(this).scrollTop() > 65) {
+    //         $('.top').addClass("fix-top");
+    //
+    //     } else {
+    //         $('.top').removeClass("fix-top");
+    //
+    //     }
+    // });
 
     // Button back top
     $(window).scroll(function() {
