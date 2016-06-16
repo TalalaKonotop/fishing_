@@ -202,53 +202,7 @@
 		}
 	}
 }
-// Gallery
-.galley{
 
-	background-color: #f1f1f1;
-	//height: 950px;
-	width: 100%;
-	padding: 20px;
-	padding-bottom: 35px;
-	h2{
-		font-size: 36px;
-		padding: 35px 0;
-		text-align: center;
-		font-family: @font-family_1;
-	}
-}
-.swiper-container {
-	width: 100%;
-	height: 350px;
-	margin-left: auto;
-	margin-right: auto;
-}
-.swiper-slide {
-	background-size: cover;
-	background-position: center;
-}
-
-
-
-
-.gallery-top {
-}
-.gallery-thumbs {
-	height: 200px;
-	box-sizing: border-box;
-	padding: 10px 0;
-}
-.gallery-thumbs .swiper-slide {
-	width: 25%;
-	height: 100%;
-	opacity: 0.4;
-}
-.gallery-thumbs .swiper-slide-active {
-	opacity: 1;
-}
-.swiper-wrapper{
-	height: 90%;
-}
 
 // Price
 
@@ -394,6 +348,59 @@
 		}
 	}
 }
+
+
+// Slider top
+
+.galley{
+
+	background-color: #f1f1f1;
+	//height: 350px;
+	width: 100%;
+	padding: 20px;
+	padding-bottom: 35px;
+	h2{
+		font-size: 36px;
+		padding: 35px 0;
+		text-align: center;
+		font-family: @font-family_1;
+	}
+}
+.swiper-container {
+	width: 100%;
+	//height: 350px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.swiper-slide {
+	background-size: cover;
+	background-position: center;
+}
+
+
+.gallery-thumbs {
+	height: 200px;
+	box-sizing: border-box;
+	padding: 10px 0;
+}
+.gallery-thumbs .swiper-slide {
+	width: 25%;
+	height: 100%;
+	opacity: 0.4;
+}
+.gallery-thumbs .swiper-slide-active {
+	opacity: 1;
+}
+.swiper-wrapper{
+	height: 90%;
+}
+.swiper-wrapper-top{
+	height: 350px;
+}
+.swiper-container.gallery-top{
+	height: 450px;
+}
+
 // Contact
 .contact{
 	h2 {
@@ -420,6 +427,8 @@
 	}
 
 }
+
+
 // Review
 .swiper-container{
 	height: auto;
@@ -587,7 +596,20 @@ footer{
 	.username{
 		text-align: center;
 	}
-	.review-text{
+
+
+	.review-text {
 		text-align: center;
 	}
+
+	.gallery-top {
+		.swiper-slide {
+			//width: 100%;
+			height: 50px;
+		}
+	}
+			.swiper-container.gallery-top {
+			height: 150px;
+		}
+
 }
