@@ -50,6 +50,20 @@
 		}
 	}
 }
+
+.fix-top{
+	position: fixed;
+	top:0;
+	left: 0;
+	right: 0;
+	margin: auto;
+	background-color: rgba(42,103,164, 0.95);
+	width: 100%;
+	color: #000;
+	height: 100px;
+	transition: background-color 1s;
+
+}
 .container-fluid{
 	padding: 0;
 }
@@ -498,6 +512,33 @@ footer{
 	font-size: 24px;
 }
 
+
+// Button back top
+
+#back-top{
+	background-color: rgba(42,103,164, 0.85);
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	display: none;
+	position: fixed;
+	bottom: 50px;
+	right: 50px;
+	cursor: pointer;
+	transition: background-color 1s;
+		i{
+			display: block;
+			margin: 0 auto;
+			text-align: center;
+			color: #fff;
+			margin-top:10px;
+			font-size: 24px;
+
+		}
+	&:hover{
+		background-color: rgba(42,103,164, 0.55);
+	}
+}
 
 // Modifine
 .grey{

@@ -1,5 +1,35 @@
 $(document).ready(function(){
 
+
+    //Fixed Top
+    $(window).scroll(function() {
+        if ($(this).scrollTop() > 50) {
+            $('.top').addClass("fix-top");
+
+        } else {
+            $('.top').removeClass("fix-top");
+
+        }
+    });
+
+    // Button back top
+    $(window).scroll(function() {
+        if ($(this).scrollTop() > 100) {
+            $('#back-top').css("display", "block");
+
+        } else {
+            $('#back-top').css("display", "none");
+
+        }
+    });
+    $('#back-top').click(function(){
+        $('html,body').animate({
+            scrollTop: 0
+        }, 800);
+
+    });
+
+
     var $first = $('.tab_1'),
         $second = $('.tab_2'),
         $third = $('.tab_3'),
@@ -79,8 +109,8 @@ $(document).ready(function(){
         touchRatio: 0.2,
         slideToClickedSlide: true
     });
-    galleryTop.params.control = galleryThumbs;
-    galleryThumbs.params.control = galleryTop;
+    // galleryTop.params.control = galleryThumbs;
+    // galleryThumbs.params.control = galleryTop;
 
 });
 
