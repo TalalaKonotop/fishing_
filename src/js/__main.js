@@ -112,5 +112,6 @@ $(document).ready(function(){
     // galleryTop.params.control = galleryThumbs;
     // galleryThumbs.params.control = galleryTop;
 
+
 });
 
